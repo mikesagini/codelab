@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<Grid
+    x:Class="CodeLabXF_1.Cards.UserCard"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Frame
+        Margin="10,0,0,0"
+        HasShadow="True"
+        VerticalOptions="Start">
+        <Grid>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="60" />
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Frame
+                Grid.Column="0"
+                Padding="0"
+                CornerRadius="30"
+                HasShadow="False"
+                HeightRequest="60"
+                IsClippedToBounds="True"
+                WidthRequest="60">
+                <Image Aspect="AspectFill" Source="{Binding avatar_url}" />
+            </Frame>
+
+            <Label
+                Grid.Column="1"
+                Margin="15,0,0,0"
+                FontAttributes="Bold"
+                FontSize="25"
+                Text="{Binding login}"
+                TextColor="Black"
+                VerticalOptions="Center" />
+
+
+            <Button
+                Grid.Column="2"
+                Clicked="Button_Clicked"
+                HorizontalOptions="End"
+                Text="Share" />
+
+        </Grid>
+    </Frame>
+
+</Grid>

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeLabXF_1.Android", "CodeLabXF_1\CodeLabXF_1.Android\CodeLabXF_1.Android.csproj", "{F16FE48B-27C5-494F-9F05-524CB07224E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodeLabXF_1", "CodeLabXF_1\CodeLabXF_1\CodeLabXF_1.csproj", "{90B0AAEC-CE85-482F-82A1-846D0E8FB741}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F16FE48B-27C5-494F-9F05-524CB07224E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F16FE48B-27C5-494F-9F05-524CB07224E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F16FE48B-27C5-494F-9F05-524CB07224E8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F16FE48B-27C5-494F-9F05-524CB07224E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F16FE48B-27C5-494F-9F05-524CB07224E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F16FE48B-27C5-494F-9F05-524CB07224E8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{90B0AAEC-CE85-482F-82A1-846D0E8FB741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90B0AAEC-CE85-482F-82A1-846D0E8FB741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90B0AAEC-CE85-482F-82A1-846D0E8FB741}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{90B0AAEC-CE85-482F-82A1-846D0E8FB741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90B0AAEC-CE85-482F-82A1-846D0E8FB741}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90B0AAEC-CE85-482F-82A1-846D0E8FB741}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F8A47CC7-5F25-443E-8680-9175CA748462}
+	EndGlobalSection
+EndGlobal
